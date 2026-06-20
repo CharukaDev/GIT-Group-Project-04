@@ -21,38 +21,37 @@
     <h2>Place an Order</h2>
     <p>Fill in the form below to order your books. We'll confirm your order by email.</p>
     <hr>
-    <form action="#" method="post">
+    <form>
         <h3>1. Your Details</h3>
         <p>
             <label for="fullname">Full Name:</label><br>
-            <input type="text" id="fullname" name="fullname" size="40" placeholder="e.g. Jane Smith" required>
+            <input type="text" id="fullname" name="fullname" placeholder="e.g. Jonny Kay">
         </p>
         <p>
             <label for="email">Email Address:</label><br>
-            <input type="email" id="email" name="email" size="40" placeholder="e.g. jane@example.com" required>
+            <input type="email" id="email" name="email" placeholder="e.g. jonnyaiya@gmail.com">
         </p>
         <p>
             <label for="phone">Phone Number (optional):</label><br>
-            <input type="tel" id="phone" name="phone" size="40" placeholder="e.g. +94 77 123 4567">
+            <input type="tel" id="phone" name="phone" placeholder="e.g. +94 77 123 4567">
         </p>
         <hr>
         <h3>2. Delivery Address</h3>
         <p>
             <label for="address">Street Address:</label><br>
-            <input type="text" id="address" name="address" size="40" required>
+            <input type="text" id="address" name="address">
         </p>
         <p>
             <label for="city">City:</label><br>
-            <input type="text" id="city" name="city" size="30" required>
+            <input type="text" id="city" name="city">
         </p>
         <p>
             <label for="postcode">Postal Code:</label><br>
-            <input type="text" id="postcode" name="postcode" size="15">
+            <input type="text" id="postcode" name="postcode">
         </p>
         <p>
             <label for="country">Country:</label><br>
             <select id="country" name="country">
-                <option value="">-- Select Country --</option>
                 <option value="lk">Sri Lanka</option>
                 <option value="in">India</option>
                 <option value="uk">United Kingdom</option>
@@ -66,20 +65,20 @@
         <p>Tick the books you wish to order:</p>
         <p>
             <input type="checkbox" id="book1" name="books" value="midnight_library">
-            <label for="book1">The Midnight Library — $14.99</label>
+            <label for="book1">The Midnight Library — $1100.00</label>
         </p>
         <p>
             <input type="checkbox" id="book2" name="books" value="atomic_habits">
-            <label for="book2">Atomic Habits — $16.99</label>
+            <label for="book2">Atomic Habits — $221.99</label>
         </p>
         <p>
             <input type="checkbox" id="book3" name="books" value="sapiens">
-            <label for="book3">Sapiens: A Brief History of Humankind — $15.99</label>
+            <label for="book3">Sapiens: A Brief History of Humankind — $1125.99</label>
         </p>
         <hr>
         <h3>4. Payment Method</h3>
         <p>
-            <input type="radio" id="card" name="payment" value="card" checked>
+            <input type="radio" id="card">
             <label for="card">Credit / Debit Card</label>
         </p>
         <p>
