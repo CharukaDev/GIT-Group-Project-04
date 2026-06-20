@@ -37,22 +37,18 @@
         </p>
         <hr>
         <h3>2. Delivery Address</h3>
-
         <p>
             <label for="address">Street Address:</label><br>
             <input type="text" id="address" name="address" size="40" required>
         </p>
-
         <p>
             <label for="city">City:</label><br>
             <input type="text" id="city" name="city" size="30" required>
         </p>
-
         <p>
             <label for="postcode">Postal Code:</label><br>
             <input type="text" id="postcode" name="postcode" size="15">
         </p>
-
         <p>
             <label for="country">Country:</label><br>
             <select id="country" name="country">
@@ -65,5 +61,54 @@
                 <option value="other">Other</option>
             </select>
         </p>
-
         <hr>
+        <h3>3. Select Your Books</h3>
+        <p>Tick the books you wish to order:</p>
+        <p>
+            <input type="checkbox" id="book1" name="books" value="midnight_library">
+            <label for="book1">The Midnight Library — $14.99</label>
+        </p>
+        <p>
+            <input type="checkbox" id="book2" name="books" value="atomic_habits">
+            <label for="book2">Atomic Habits — $16.99</label>
+        </p>
+        <p>
+            <input type="checkbox" id="book3" name="books" value="sapiens">
+            <label for="book3">Sapiens: A Brief History of Humankind — $15.99</label>
+        </p>
+        <hr>
+        <h3>4. Payment Method</h3>
+        <p>
+            <input type="radio" id="card" name="payment" value="card" checked>
+            <label for="card">Credit / Debit Card</label>
+        </p>
+        <p>
+            <input type="radio" id="cod" name="payment" value="cod">
+            <label for="cod">Cash on Delivery</label>
+        </p>
+        <p>
+            <input type="radio" id="bank" name="payment" value="bank">
+            <label for="bank">Bank Transfer</label>
+        </p>
+        <hr>
+        <h3>5. Additional Notes</h3>
+        <p>
+            <label for="notes">Any special instructions?</label><br>
+            <textarea id="notes" name="notes" rows="4" cols="45"
+                placeholder="e.g. Leave at the front gate if no one is home."></textarea>
+        </p>
+        <hr>
+        <p>
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">
+                I agree to the <a href="#">Terms &amp; Conditions</a> and
+                <a href="#">Privacy Policy</a>.
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Submit Order">
+            <input type="reset" value="Clear Form">
+        </p>
+    </form>
+    <hr>
+    
