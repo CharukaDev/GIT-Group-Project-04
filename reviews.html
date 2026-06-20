@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews - PageTurner</title>
+</head>
+
+<body>
+    <header>
+        <h1>📚 PageTurner Bookshop</h1>
+        <p><em>Your favourite books, delivered to your door.</em></p>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="catalog.html">Book Catalog</a> |
+            <a href="reviews.html">Reviews</a> |
+            <a href="about.html">About Us</a> |
+            <a href="order.html">Place an Order</a>
+        </nav>
+        <hr>
+    </header>
+    <h2>Reader Reviews</h2>
+    <p>See what our customers are saying. All reviews are submitted by verified buyers.</p>
+    <hr>
+    <section>
+        <h3>Overall Ratings at a Glance</h3>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Book Title</th>
+                <th>Average Rating</th>
+                <th>Total Reviews</th>
+            </tr>
+            <tr>
+                <td>The Midnight Library</td>
+                <td>★★★★★ (4.8)</td>
+                <td>124</td>
+            </tr>
+            <tr>
+                <td>Atomic Habits</td>
+                <td>★★★★☆ (4.3)</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Sapiens</td>
+                <td>★★★★☆ (4.5)</td>
+                <td>211</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h3>📖 The Midnight Library — Reviews</h3>
+        <article>
+            <h4>★★★★★ — A life-changing read</h4>
+            <p><strong>Sarah T.</strong> | Verified Buyer | March 2026</p>
+            <pre>
+                "I picked this up on a whim and could not put it down. The concept is so
+                original and the writing is tender and thoughtful. It made me appreciate
+                the life I have in a way no other book has."
+            </pre>
+        </article>
+        <article>
+            <h4>★★★★☆ — Warm and well-written</h4>
+            <p><strong>James R.</strong> | Verified Buyer | January 2026</p>
+            <pre>
+                "Haig writes with such warmth and clarity. A few parts felt a little slow
+                in the middle, but the ending more than made up for it. Highly recommended
+                for anyone going through a difficult patch."
+            </pre>
+        </article>
+        <article>
+            <h4>★★★☆☆ — Good but predictable</h4>
+            <p><strong>Leon W.</strong> | Verified Buyer | February 2026</p>
+            <pre>
+                "Enjoyable enough, but I guessed the ending fairly early on. The
+                philosophical ideas are interesting even if they are not explored as deeply
+                as I would have liked."
+            </pre>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h3>💡 Atomic Habits — Reviews</h3>
+        <article>
+            <h4>★★★★★ — Genuinely useful</h4>
+            <p><strong>Priya M.</strong> | Verified Buyer | April 2026</p>
+            <pre>
+                "I have read a lot of self-help books and most of them say the same things.
+                This one actually gave me frameworks I could apply immediately. My morning
+                routine has completely changed for the better."
+            </pre>
+        </article>
+        <article>
+            <h4>★★★☆☆ — Repetitive in places</h4>
+            <p><strong>Daniel K.</strong> | Verified Buyer | March 2026</p>
+            <pre>
+                "The core message is solid and backed by good research, but the author
+                repeats key points too many times. The book could be half the length and
+                lose nothing important."
+            </pre>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h3>🌍 Sapiens — Reviews</h3>
+        <article>
+            <h4>★★★★★ — Mind-blowing</h4>
+            <p><strong>Amara O.</strong> | Verified Buyer | May 2026</p>
+            <pre>
+                "This book permanently changed how I see the world. Harari covers thousands
+                of years of history with incredible clarity and wit. I have already
+                recommended it to everyone I know."
+            </pre>
+        </article>
+        <article>
+            <h4>★★★★☆ — Broad but worthwhile</h4>
+            <p><strong>Tom B.</strong> | Verified Buyer | April 2026</p>
+            <pre>
+                "Some conclusions feel oversimplified given the enormous scope, but that is
+                almost unavoidable with a book this ambitious. A great starting point for
+                anyone curious about human history."
+            </pre>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h3>Write Your Own Review</h3>
+        <p>Purchased a book from us? Share your thoughts below.</p>
+        <form>
+            <p>
+                <label for="reviewer-name">Your Name:</label><br>
+                <input type="text" id="reviewer-name" name="reviewer_name">
+            </p>
+            <p>
+                <label for="reviewer-email">Email Address:</label><br>
+                <input type="email" id="reviewer-email" name="reviewer_email">
+            </p>
+            <p>
+                <label for="book-select">Book You Are Reviewing:</label><br>
+                <select id="book-select" name="book" required>
+                    <option value="midnight_library">The Midnight Library</option>
+                    <option value="atomic_habits">Atomic Habits</option>
+                    <option value="sapiens">Sapiens</option>
+                </select>
+            </p>
+            <p>
+                <label>Your Rating:</label><br>
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">★★★★★ Excellent</label><br>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">★★★★☆ Good</label><br>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">★★★☆☆ Average</label><br>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">★★☆☆☆ Poor</label><br>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1">★☆☆☆☆ Very Poor</label>
+            </p>
+            <p>
+                <label for="review-title">Review Title:</label><br>
+                <input type="text" id="review-title" name="review_title" size="50" placeholder="e.g. A wonderful read">
+            </p>
+            <p>
+                <label for="review-body">Your Review:</label><br>
+                <textarea id="review-body" name="review_body" rows="5" cols="50"
+                    placeholder="Tell other readers what you thought..." required></textarea>
+            </p>
+            <p>
+                <input type="checkbox" id="verified-check" name="verified" required>
+                <label for="verified-check">I confirm I purchased this book from PageTurner.</label>
+            </p>
+            <p>
+                <input type="submit" value="Submit Review">
+                <input type="reset" value="Clear">
+            </p>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; 2026 PageTurner Bookshop. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
